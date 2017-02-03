@@ -6,21 +6,7 @@ chai.should();
 
 const BubbleSort = require('../bubble-sort.js');
 
-describe('myArray', () => {
-
-	let myArray = BubbleSort;
-
-	it('should be an array', () => {
-		myArray.should.be.an.array;
-	});
-
-	it('should be a number', () => {
-		myArray.should.be.a.number;
-	});
-
-});
-
-describe('sortMyArray', () => {
+describe('bubbleSort', () => {
 
 	let bubbleSort = BubbleSort;
 
