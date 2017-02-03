@@ -1,7 +1,3 @@
-// let arr = [5,2,9,1,3,6,10,8,7,4];
-
-// console.log('outside', arr);
-
 function bubbleSort (n){
 
 	do{
