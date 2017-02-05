@@ -2,11 +2,9 @@ const chai = require('chai');
 
 chai.should();
 
-const quickSort = require('../quick-sort.js');
+const quickSort = require('../quick-sort');
 
 describe('quickSort', () => {
-
-console.log(quickSort([5,10, 1]));
 
 	it('should be a function', () => {
 		quickSort.should.be.a('function');
