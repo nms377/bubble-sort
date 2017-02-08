@@ -2,7 +2,7 @@ const chai = require('chai');
 
 chai.should();
 
-const mergeSort = require('../merge-sort');
+const mergeSort = require('../algorithms/merge-sort');
 
 describe('mergeSort', () => {
 

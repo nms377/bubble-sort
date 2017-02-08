@@ -2,7 +2,7 @@ const chai = require('chai');
 
 chai.should();
 
-const quickSort = require('../quick-sort');
+const quickSort = require('../algorithms/quick-sort');
 
 describe('quickSort', () => {
 

@@ -2,7 +2,7 @@ const chai = require('chai');
 
 chai.should();
 
-const insertionSort = require('../insertion-sort');
+const insertionSort = require('../algorithms/insertion-sort');
 
 describe('Insertion Sort', () =>{
 

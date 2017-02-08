@@ -2,7 +2,7 @@ const chai = require('chai');
 
 chai.should();
 
-const selectionSort = require('../selection-sort');
+const selectionSort = require('../algorithms/selection-sort');
 
 describe('selectionSorte', () => {
 

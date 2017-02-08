@@ -2,7 +2,7 @@ const chai = require('chai');
 
 chai.should();
 
-const bubbleSort = require('../bubble-sort.js');
+const bubbleSort = require('../algorithms/bubble-sort.js');
 
 describe('bubbleSort', () => {
 
