@@ -60,3 +60,29 @@ end function
 	
 ```
 
+## Merge Sort
+
+>Takes the first half of the list and sorts it, then takes the second half of the list and sorts it.
+
+- Big-O Notation: O(n<sup>2</sup>)
+- Best Case Scenario: List is sorted.
+- Worst Case Scenaro: List is sorted in reverse order.
+
+Psuedo Code
+```
+function insertoinSort(n: list of items)
+	for i from 1 to length(n)
+	key = n[i]
+	j = i-1
+
+		while j is greater than or equal to 0 and n[j] is greater than key
+		n[j+1] equals n[j]
+		j = j-1
+		end while
+	n[j+1] equals key
+	end for
+	return n
+end function
+	
+```
+
