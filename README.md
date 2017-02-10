@@ -38,7 +38,7 @@ end function
 
 >Passes through a list and compares two item values at a time starting with the second item on the list. If the value of the second item is greater than the first item, then the function will work back to the beginning of the list and compare the second item value to another item with a greater value. Once it finds an item with a value greater than the second item it swaps the second item with the item to the right of the compared item. Then the function passes through the list starting from the second list item and does the same thing. The function will stop running when it passes through the list and does not swap any items.
 
-- Big-O Notation: O(n^2^)
+- Big-O Notation: O(n<sup>2</sup>)
 - Best Case Scenario: List is sorted.
 - Worst Case Scenaro: List is sorted in reverse order.
 
