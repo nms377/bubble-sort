@@ -14,7 +14,7 @@ Create a README.md file and for each algorithm include the following:
 
 >Passes through a list and compares values one at a time. If the value of the first item is greater than the second item, then the first items swaps places with the second item. Then the function passes through the list from the beginning and does the same thing. The function will stop running when it passes through the list and does not swap any items.
 
-- Big-O Notation: O(n^2^)
+- Big-O Notation: O(n<sup>2</sup>)
 - Best Case Scenario: List is sorted.
 - Worst Case Scenaro: List includes a large collection of data requiring many passes.
 
